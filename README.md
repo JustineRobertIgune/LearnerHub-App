@@ -1,2 +1,2 @@
 # LearnerHub-App
-Learning Programming in one Collection
+Learning Programming in One Collection Area
