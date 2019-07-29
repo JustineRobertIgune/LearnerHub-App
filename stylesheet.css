@@ -84,8 +84,8 @@ li{
 }
 
 header{
-  width: 100px;
   height: 65px;
+  width: 100px;
   background-color: rgba(34, 49, 52, 0.9);
   position: fixed;
   top: 0;
@@ -112,31 +112,33 @@ header{
 
 .header-right{
   float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
+  margin-right: -25px;
 }
 
-.header-right:hover{
+.header-right a:hover{
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.header-right a{
+.header-right a {
+  line-height: 65px;
   padding: 0 25px;
   color: white;
-  inline-height: 65px;
   display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
 .lesson-wrapper{
   padding-bottom: 80px;
-  height: 500px;
+  padding-left: 5px;
+  padding-right: 5px;
   text-align: center;
   background-color: #f7f7f7;
 }
 
 .heading{
-  padding-top: 60px;
-  padding-bottom: 30px;
+  padding-top: 80px;
+  padding-bottom: 50px;
   color: #5f5d60;
 }
 
@@ -155,14 +157,14 @@ header{
 
 .lesson-icon p{
   position: absolute;
+  top: 44px;
   width: 100px;
-  top: 90px;
   color: white;
 }
 
-.txt-contents{
+.text-contents{
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 15px;
   width: 80%;
   color: #b3aeb5;
   font-size: 15px;
@@ -228,4 +230,12 @@ footer img {
   float: left;
   bottom: 10px;
   top: 20px;
+}
+
+menu-icon{
+  color: white;
+  float:right;
+  font-size: 25px;
+  display: none;
+  padding: 21px 0;
 }
